@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppskrifter for maskinstrikking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+    </style>
+     <link rel="stylesheet" href="https://use.typekit.net/ifg6zsq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    
+<body>
+    
+    <header id=hode>
+        <a href="index.html">
+        <img src="TD-logo.png" alt="Logo til Maskinstrikk Teknikk-Design">
+    </a>
+   
+    <div id="toppen"></div>
+    
+    <div class="dropdown" id="kolonne">
+        <button class="dropbtn" id="meny"><div class="burger"></div ><div class="burger"></div><div class="burger"></div></button>
+        <div class="dropdown-content">
+        <a href="index.html">Hjem</a>
+        <a href="kurs.html">Kurs og events</a>
+        <a href="oppskrifter.html">Oppskrifter</a>
+        <a href="omOss.html">Om oss</a>
+        </div>
+    </div>
+  
+     <nav id="hovedmeny">
+            
+            <li class="dropdown"><button class="dropbtn">Hjem</button>
+            <div class="dropdown-content">
+                <a href="index.html">Forsiden</a>
+                <a href="index.html#int">Intro</a>    
+                <a href="index.html#dig">Grunnkurs på video</a>
+                <a href="index.html#ferd">Ferdige oppskrifter</a>
+                <a href="index.html#design">Eget design?</a>
+                <a href="index.html#pre-kalender">Kalender</a>
+            </div>
+            </li>
+            
+                        
+            <li class="dropdown"><button class="dropbtn">Kurs og events</button>
+            <div class="dropdown-content">
+                <a href="kurs.html">Kurs og events</a> 
+                <a href="kurs.html#int">Intro</a>    
+                <a href="kurs.html#grkurs">Grunnkurs i maskinstrikking</a>
+                <a href="kurs.html#helgekurs">Helgekurs</a>
+                <a href="kurs.html#kreativ">Kreativ helgesamling</a>
+                <a href="kurs.html#salg">Bøker og garn</a>
+                <a href="kurs.html#paameld">Påmelding</a>
+            </div>
+            </li>
+            
+            
+            
+            <li class="dropdown" style="background-color:#ffffff; color:#777777; margin-left:30%;"><button class="dropbtn" style="background-color:#ffffff; color:#777777;"><div class="bakgrunn"></div>Oppskrifter</button>
+            <div class="dropdown-content">
+                <a href="oppskrifter.html">Oppskrifter</a>
+                <a href="oppskrifter.html#int">Intro</a>    
+                <a href="oppskrifter.html#genser">Genser</a>
+                <a href="oppskrifter.html#jakke">Jakke</a>
+                <a href="oppskrifter.html#skjerf">Småstrikk</a>
+                <a href="oppskrifter.html#pre-skjema">Bestillingsskjema</a>
+            </div>
+            </li>
+            
+            <li class="dropdown"><button class="dropbtn">Om oss</button>
+             <div class="dropdown-content" style="right: 0;">
+                <a href="omOss.html">Om oss</a>
+                <a href="omOss.html#int">Intro</a>    
+                <a href="omOss.html#trapp">Læringstrappa</a>
+                <a href="omOss.html#hvem">Kursholdere</a>
+                <a href="omOss.html#hva">Kompetanse</a>
+                <a href="omOss.html#sam">Samarbeidspartnere</a>
+                <a href="omOss.html">Kontakt oss</a>
+            </div>
+           </li>
+    </nav>
+    
+    </header>
+    
+    <div>
+        <img id="forsidebilde" src="MA-Smaaflettegenser.jpg" alt="Ung kvinne og ung mann med Småflettegenser i burgunder/lys rosa og blå/grønn"> 
+        <div id="s3"></div>
+        <div class="slogan">
+            <h3 class="rop">Oppskrifter</h3>
+            <p>- klær for alle</p>
+        </div>
+    </div>
+    
+    <div class="forfelt" id="int" style="height: 1vw; margin-top: -12vw;"></div>
+    
+    <div  class="col-12">                
+        <article id="intro">
+            <h2>Om oppskriftene </h2>
+            <div>
+                <p>Oppskriftene du finner her er utviklet for å kunne brukes i kursene hos Maskinstrikk Teknikk-Design.<br> 
+                Maskintrikkeoppskriftene står som selvstendige produkt, og skal være tilgjengelige også for de som ikke har gått kursene.</p>
+                <p>Hver modell presenteres med bilde, og en kort tekst om teknikker og materialer.</p>
+                <p>Du bestiller oppskriftene i <a href="#bestill" class="link">bestillingsskjema</a> nederst på siden.</p>
+            </div>
+        </article>
+    </div>
+       
+    
+    <div class="col-12" id="kategori">
+        <ul>
+            <li><a href="#genser"><button>Gensere</button></a></li>
+            <li><a href="#jakke"><button>Jakker</button></a></li>
+            <li><a href="#skjerf"><button>Småstrikk</button></a></li>
+        </ul>
+    </div>
+    
+   
+    
+<div class="grid-container-oppskrift"> 
+    <!--En ekstra rekke lagt inn for at kategorioverskriften ikke skal forsvinne bak header-->
+    <div class="item1"></div>
+    <div class="item1" id="genser"></div>
+    <div class="item1"></div>
+    
+    <div class="item2"></div>
+    <div class="item3"><h2>Oppskrifter</h2><h3>GENSERE</h3></div>
+    <div class="item4"></div>
+    
+    
+    <div class="item5">
+        <div>
+            <img src="io-nyttaarsgenser.jpg" class="opp-bilde" alt="Kvinne i genser med flaggermusermer i rødt">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Nyttårsgenser</h2>
+                <p>Flaggermusgenser i alpakka og silke.<br>
+                Størrelser fra 34-44.<br>
+                Glattstrikk, ribb og håndmanipulering.</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 150,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+            </div>
+    </div>
+    
+    <div class="item5">
+        <div>
+            <img src="io-smaaflette.jpg" class="opp-bilde" alt="Ung kvinne og ung mann med Småflettegenser i burgunder/lys rosa og blå/grønn. Sett bakfra">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Småflettet genser</h2>
+                <p>Glattstrikket genser i ull.<br>
+                Størrelser fra 34-44.<br>
+                Glattstrikk og håndmanipulerte fletter.</p>
+               <p><b>Nivå: Enkel.<br>Pris: kr 100,-</b></p>
+            </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+            </div>
+    </div>
+    
+    <div class="item5">
+        <div>
+            <img src="io-trippetrapp.jpg" class="opp-bilde" alt="Ung kvinne med genser i lime- grønt med brede, blå kanter">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Trippetrapp- genser</h2>
+                <p>Teksturstrikket genser med sadelerme i alpakkaull.<br>
+                Størrelser fra 34-44.<br>
+                Ribb og slip-ribb strikket på ribbapparat.</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 100,-</b></p>
+            </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+</div>
+    
+<!--Mellomrom for å sørge for at kategori- overskriften ikke forsvinner bak header-->    
+    <div id="jakke"></div>
+    
+<div class="grid-container-oppskrift">        
+    <div class="item2"></div>
+    <div class="item3"><h2>Oppskrifter</h2><h3>JAKKER</h3></div>  
+    <div class="item4"></div>
+    
+    
+    <div class="item5">
+        <div>
+            <img src="io-gronnjakke.jpg" class="opp-bilde" alt="Kvinne i limegrønn jakke med brun-hvitstripete kanter og flaggermusermer ">
+        </div>
+            <div class="beskrivelse"> 
+                <h2>Flaggermusjakke</h2>
+                <p>Grønn jakke med flaggermusermer i ull.<br>
+                Størrelser fra 34-44.<br>
+                Glattstrikk, kantfellinger og -økninger.</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 150,-</b></p>
+            </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+    <div class="item5">
+        <div>
+            <img src="io-Ajakke.jpg" class="opp-bilde" alt="Ung mann i sort jakke og dongerifarget skjerf, og ung kvinne med grå og burgunder strikket kjole.">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Herrejakke</h2>
+                <p>Glattstrikket herrejakke med glidelåslukning.<br>
+                Størrelser fra S-XL.<br>
+                Glattstrikk, falsk ribb, økninger og felinger .</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 150,-</b></p>
+            </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+    <div class="item5"> 
+        <div>
+            <img src="io-Mjoslys-vinter.jpg" class="opp-bilde" alt="Ung kvinne i hvit kofte med mønster i cognac og blått">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Mjøslys- vinter</h2>
+                <p>Kofte i fair-isle- mønster med knappelukning.<br>
+                Størrelser fra 34-44.<br>
+                Ribb, fair-isle, halsfelling med forkortede rekker.</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 150,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+</div>
+    
+    <div id="skjerf"></div>
+    
+<div class="grid-container-oppskrift">       
+    <div class="item2"></div>
+    <div class="item3"><h2>Oppskrifter</h2><h3>SMÅSTRIKK</h3></div>  
+    <div class="item4"></div>
+    
+     <div class="item5">        
+         <div>
+            <img src="io-bolgehalser.jpg" class="opp-bilde" alt="3 skjerf/halser presentert på en stubbe">
+        </div>
+         <div class="beskrivelse"> 
+                <h2>Bølgehals</h2>
+                <p>Hals sydd sammen av ett stykke.<br>
+                Kun en størrelse.<br>
+                Tuck- strikk med ribbapparat..</p>
+                <p><b>Nivå: Medium.<br>Pris: kr 75,-</b></p>
+                
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+     <div class="item5"> 
+         <div>
+            <img src="io-skjerfMonster.jpg" class="opp-bilde" alt="Mønstret trekantskjerf i beige og oransje">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Trekantskjerf</h2>
+                <p>Skjerf strikket i trekantform.<br>
+                Kun en størrelse.<br>
+                Fair-isle, kantøkninger og - fellinger.</p>
+                <p><b>Nivå: Enkel.<br>Pris: kr 50,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+       
+     <div class="item5">   
+         <div>
+            <img src="io-vanter.jpg" class="opp-bilde" alt="Koxgrå vanter med teksturmønster">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Fingervanter</h2>
+                <p>Fingervanter med tekstur i alpakkaull.<br>
+                Kun en størrelse.<br>
+                Ribb, fletter, bobler og knuter.</p>
+                <p><b>Nivå: Høy.<br>Pris: kr 75,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+         
+     <div class="item5">
+         <div>
+            <img src="io-pulsvarmere.jpg" class="opp-bilde" alt="Pulsvarmere i ribb- og bisestrikk. Sjøgrønn, grå og gul">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Pulsvarmere</h2>
+                <p>Pulsvarmere med ribb- biser i 100% ull.<br>
+                Kun en størrelser.<br>
+                Dobbeltstrikk med ribb- apparat og biser.</p>
+               <p><b>Nivå: Medium.<br>Pris: kr 50,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+    
+     <div class="item5">
+         <div>
+            <img src="io-raggsokker.jpg" class="opp-bilde" alt="Brune reggsokker med blå striper, hel og tå">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>raggsokker</h2>
+                <p>Raggsokker til alle.<br>
+                Størrelser fra 34-44.<br>
+                Ribb, glattstrikk og forkortede rekker.</p>
+                <p><b>Nivå: Enkel.<br>Pris: kr 150,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+    
+     <div class="item5">
+         <div>
+            <img src="io-ankelsokker.jpg" class="opp-bilde" alt=" 4par hvite og brunspraglete ankelsokker ">
+        </div>
+        <div class="beskrivelse"> 
+                <h2>Ankelsokker</h2>
+                <p>Sokker med lavt skaft.<br>
+                Størrelser fra 36-42.<br>
+                Glattstrikk og forkortede rekker.</p>
+                <p><b>Nivå: Enkel.<br>Pris: kr 50,-</b></p>
+        </div>
+        <div class="bestill">    
+        <a href="#pre-skjema"><button>
+                Bestill oppskrift
+            </button></a>
+        </div>
+    </div>
+</div>
+    
+    <div id="pre-skjema"></div>
+    
+    <form class="col-12" id="skjema-bestill">
+        <div class="skjematopp">
+            <h2>Bestill din oppskrift</h2>
+            <p>Betaling på Vipps</p>
+        </div>
+        
+          <label class="hode" for="navn">Navn:</label>
+            <input type="text" name="navn" class="skrivefelt"><br>
+           
+            <label for="email">Mailadresse:</label>
+            <input type="text" name="mailadresse"><br>
+            
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" name="telefonnummer" ><br>
+            <label for="nyhetsbrev">Ønsker du å motta nyhetsbrev fra Maskinstrikk Teknikk-Design?</label>
+            <input type="text" name="oppskrift">
+        
+            <label for="oppskrift">Hvilke oppskrifter bestiller du?</label>
+            <input type="text" name="oppskrift">
+            <input type="text" name="oppskrift">
+            <input type="text" name="oppskrift">
+            <br>
+                
+        <abbr title="Denne linken er ikke aktiv"><input type="submit" value="Bestill oppskrifter" class="svarknapp"></abbr>
+
+        <div class="kommentar">
+            <p>Du får krav på Vipps når bestillingen er mottatt. Deretter kommer oppskriftene tilsendt på oppgitt mailadresse.
+            </p>
+        </div>            
+    </form>
+   
+    
+   <div >    
+            <a href="oppskrifter.html"><button id="tilbake" style="background-color: #e0644a;">Til toppen</button></a>
+        </div>
+    
+<footer>      
+        <div id="adresse">    
+            <p><b>Kontakt oss</b></p>
+            <p><a href="mailto:maskinstrikke-eksperten@norge.no"><b>E-post: </b></a> maskinstrikke-eksperten@norge.no</p>
+            <p>Maskinstrikk Teknikk-Design<br>
+            Garngata 15<br>
+            1814 TRÅDVIK
+            </p>
+        </div>
+
+        <div id="some">
+            <abbr title="Denne linken er ikke aktiv"><a href="#" class="fa fa-facebook" alt="Ikon for facebook"></a></abbr>
+            <abbr title="Denne linken er ikke aktiv"><a href="#" class="fa fa-instagram" alt="Ikon for instagram"></a></abbr>
+            <abbr title="Denne linken er ikke aktiv"> <a href="#" class="fa fa-vimeo" alt="Ikon for vimeo"></a></abbr>
+        </div>
+
+        <div id="bet">
+            <p><b>Betaling</b></p>
+            <p>Ved kjøp av oppskrifter eller kurs, kan du betale med VIPPS.<br>
+            Søk opp "Maskinstrikk Teknikk-Design"<br>
+            Telefonnummer: 99887766</p>
+        </div>
+</footer>
+    
+<script src=""></script>    
+</body>
+    
+
+
+</html>
